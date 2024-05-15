@@ -3,8 +3,8 @@ Docker Volumes
 
 ### Data Persistence in Docker for Stateful Applications
 * Kindly refer the following articles if you are not aware of layer
-  * [Image Layers](https://github.com/codesquareZone/Docker-Image-Layers-and-containers-Part-2/blob/master/dc.md)
-  * [Impact of Layers on Container](https://github.com/codesquareZone/Docker-Image-Layers-and-containers/blob/master/Docker%20Image%20Layers%20and%20containers.md)
+  * [Image Layers](https://github.com/DockerNotes/Docker-Image-Layers-and-containers-Part-2/blob/main/dc.md)
+  * [Impact of Layers on Container](https://github.com/DockerNotes/Docker-Image-Layers-and-containers/blob/main/Docker%20Image%20Layers%20and%20containers.md)
 * By default, all the files created/modified by the containers reside on the writable layer of the container.
 * The problem with the writable layer of the container is "Writable layer will be deleted once the container is deleted"
 * To persist the data into the Docker Host (Machine on which Docker is installed) Docker provides the following options
